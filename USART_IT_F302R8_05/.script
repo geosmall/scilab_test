@@ -1,0 +1,3 @@
+config load "C:\Users\geoma\Desktop\Scilab\scilab_test\USART_IT_F302R8_05\USART_IT_F302R8_05.ioc"
+project generate ui
+exit wait

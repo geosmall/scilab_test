@@ -1,0 +1,3 @@
+config load "C:\Users\geoma\Desktop\Scilab\scilab_test\PWM_F401RE_Nucleo\PWM_F401RE_Nucleo.ioc"
+project generate ui
+exit wait

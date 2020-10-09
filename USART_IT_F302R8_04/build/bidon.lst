@@ -1,0 +1,85 @@
+ARM GAS  C:\Users\geoma\AppData\Local\Temp\ccocPQjj.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 1
+   4              		.eabi_attribute 28, 1
+   5              		.fpu fpv4-sp-d16
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 3
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 1
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.thumb
+  16              		.file	"bidon.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.section	.text.bidon,"ax",%progbits
+  21              		.align	2
+  22              		.global	bidon
+  23              		.thumb
+  24              		.thumb_func
+  26              	bidon:
+  27              	.LFB0:
+  28              		.file 1 "C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c/bidon.c"
+   1:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** /*  Scicos
+   2:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** *
+   3:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** *  Copyright (C) INRIA - METALAU Project <scicos@inria.fr>
+   4:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** *
+   5:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * This program is free software; you can redistribute it and/or modify
+   6:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * it under the terms of the GNU General Public License as published by
+   7:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * the Free Software Foundation; either version 2 of the License, or
+   8:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * (at your option) any later version.
+   9:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** *
+  10:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * This program is distributed in the hope that it will be useful,
+  11:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  12:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  13:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * GNU General Public License for more details.
+  14:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** *
+  15:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * You should have received a copy of the GNU General Public License
+  16:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * along with this program; if not, write to the Free Software
+  17:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+  18:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** *
+  19:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** * See the file ./license.txt
+  20:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** */
+  21:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** /*--------------------------------------------------------------------------*/
+  22:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** #include "scicos_block.h"
+  23:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** #include "dynlib_scicos_blocks.h"
+  24:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** /*--------------------------------------------------------------------------*/
+  25:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** SCICOS_BLOCKS_IMPEXP void bidon(scicos_block *block, int flag)
+  26:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** /*------------------------------------------------
+  27:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c ****  *     Scicos block simulator
+  28:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c ****  *     does nothing
+  29:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c ****  *------------------------------------------------*/
+  30:C:/Users/geoma/Desktop/Scilab/toolboxes/STM32_toolbox_1-1/scicos_blocks/src/c\bidon.c **** {
+ARM GAS  C:\Users\geoma\AppData\Local\Temp\ccocPQjj.s 			page 2
+
+
+  29              		.loc 1 30 0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+  34              	.LVL0:
+  35 0000 7047     		bx	lr
+  36              		.cfi_endproc
+  37              	.LFE0:
+  39 0002 00BF     		.text
+  40              	.Letext0:
+  41              		.file 2 "../../toolboxes/STM32_toolbox_1-1/scicos_blocks/includes/scicos_block.h"
+ARM GAS  C:\Users\geoma\AppData\Local\Temp\ccocPQjj.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 bidon.c
+C:\Users\geoma\AppData\Local\Temp\ccocPQjj.s:21     .text.bidon:00000000 $t
+C:\Users\geoma\AppData\Local\Temp\ccocPQjj.s:26     .text.bidon:00000000 bidon
+                     .debug_frame:00000010 $d
+
+NO UNDEFINED SYMBOLS

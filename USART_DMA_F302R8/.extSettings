@@ -1,0 +1,7 @@
+[ProjectFiles]
+HeaderPath=C:\Users\geoma\Desktop\Scilab\scilab_test\USART_DMA_F302R8/USART_DMA_F302R8/Inc;C:\Users\geoma\Desktop\Scilab\toolboxes\STM32_toolbox_1-1\scicos_blocks\includes;C:\Users\geoma\Desktop\Scilab\scilab_test\USART_DMA_F302R8/USART_DMA_F302R8/Inc;C:\Users\geoma\Desktop\Scilab\toolboxes\STM32_toolbox_1-1\scicos_blocks\core\includes;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM4;MemUnit_T:uint8_T;__aeabi_assert:assert_sci_failed;
+Name=SCILAB;
+[Groups]
+SCILAB=C:\Users\geoma\Desktop\Scilab\scilab_test\USART_DMA_F302R8\USART_DMA_F302R8\Src\USART_DMA_F302R8_USART.c;C:\Users\geoma\Desktop\Scilab\scilab_test\USART_DMA_F302R8\USART_DMA_F302R8\Src\USART_DMA_F302R8_it.c;C:\Users\geoma\Desktop\Scilab\scilab_test\USART_DMA_F302R8\USART_DMA_F302R8\Src\USART_DMA_F302R8_GPIO.c;C:\Users\geoma\Desktop\Scilab\scilab_test\USART_DMA_F302R8\USART_DMA_F302R8\Src\USART_DMA_F302R8.c;C:\Users\geoma\Desktop\Scilab\toolboxes\STM32_toolbox_1-1\scicos_blocks\src\c\bidon.c;C:\Users\geoma\Desktop\Scilab\toolboxes\STM32_toolbox_1-1\scicos_blocks\src\c\cstblk4_m.c;C:\Users\geoma\Desktop\Scilab\toolboxes\STM32_toolbox_1-1\scicos_blocks\src\c\convert.c;
